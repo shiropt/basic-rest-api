@@ -20,7 +20,7 @@ const searchModule = (() => {
                   <td>${user.updated_at}</td>
                 </tr>`
       }
-      document.getElementById("users-list") = body
+      document.getElementById("users-list").innerHTML = body
     }
   }
 })()
