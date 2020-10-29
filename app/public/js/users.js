@@ -14,7 +14,7 @@ const userModule = (() => {
                         <td>${user.profile}</td>
                         <td>${user.date_of_birth}</td>
                         <td>${user.created_at}</td>
-                        <td>${user.update_at}</td>
+                        <td>${user.updated_at}</td>
                       </tr>`
         document.getElementById("users-list").insertAdjacentHTML('beforeend',body)
       }
