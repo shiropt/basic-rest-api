@@ -3,5 +3,5 @@ const indexModule = (() => {
     .addEventListener("click", () => {
       return searchModule.searchUsers()
     })
-  return userModule.fetchAllUsers()
+    return userModule.fetchAllUsers()
 })()
